@@ -1,0 +1,28 @@
+{
+  "name": "boilerplate2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server",
+    "start-dev": "nodemon --watch index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-logger": "0.0.3",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-router-dom": "^5.0.1",
+    "volleyball": "^1.5.1"
+  }
+}
+
+/*Uncaught Error: Cannot find module '@babel.polyfill'
+at webpackMissingModule (bootstrap:83)
+at Object.0 (bootstrap:83)
+at __webpack_require__ (bootstrap:19)
+at bootstrap:83
+at bootstrap:83*/
